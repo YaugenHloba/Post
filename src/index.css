@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    /*flex-direction: column;*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 99vh;
+}
+
+#root{
+    position: relative;
+    width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid darkgreen;
+    height: 99vh;
+}
+
+#login {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+
+#login form .mdc-textfield,
+#login form .mdc-button {
+    width: 100%;
+    display: block;
+}
+
+
+

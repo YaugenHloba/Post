@@ -1,0 +1,48 @@
+.header{
+   background-color: lightskyblue;
+   box-sizing: content-box;
+   margin-bottom: 1%;
+   overflow: hidden;
+}
+
+.headerName{
+   font-size: 2em;
+   font-weight: bold;
+   float: left;
+   width: 20%;
+
+}
+.headerName > p{
+   margin: 5%;
+
+}
+.headerMenu{
+   display: flex;
+   justify-content: flex-end;
+   align-content:center;
+   flex-wrap: wrap;
+
+}
+
+.headerMenuBlock{
+   border: 2px solid silver;
+   width: 15%;
+   height: 30px;
+   margin: 10px;
+   text-align: center;
+   line-height: 30px;
+   font-size: 1.2em;
+   flex: 1 1;
+   background-color: greenyellow;
+
+}
+
+.headerPage{
+   float: left;
+}
+.headerSort{
+   float: right;
+}
+.haederFinish > p{
+   clear: both;
+}

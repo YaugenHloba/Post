@@ -1,0 +1,7 @@
+.container{
+   position: inherit;
+   width: 1600px;
+   height: 2000px;
+   margin: auto;
+   border: 2px solid black;
+}
